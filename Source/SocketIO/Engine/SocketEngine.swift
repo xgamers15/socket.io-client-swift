@@ -747,7 +747,7 @@ extension SocketEngine {
     /// - Parameters:
     ///   - event: WS Event
     ///   - _:
-    public func didReceive(event: WebSocketEvent, client _: WebSocket) {
+    public func didReceive(event: WebSocketEvent, client _: WebSocketClient) {
         switch event {
         case let .connected(headers):
             wsConnected = true
