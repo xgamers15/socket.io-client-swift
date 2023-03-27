@@ -1,1 +1,1 @@
-github "daltoniam/Starscream" ~> 4.0
+github "https://github.com/xgamers15/Starscream.git" "enable-bitcode"
